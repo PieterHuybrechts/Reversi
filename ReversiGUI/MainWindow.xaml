@@ -1,0 +1,164 @@
+﻿<Window x:Class="ReversiGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:l="clr-namespace:ReversiGUI"
+        Title="MainWindow" ResizeMode="CanMinimize" Height="720" Width="867">
+    <Window.Resources>
+        <l:ColorConverter x:Key="colorConverter"/>
+        <l:OwnedConverter x:Key="ownedConverter"/>
+        <l:GameOverConverter x:Key="gameOverConverter"/>
+        <l:CurrentPlayer1Converter x:Key="currentPlayer1Converter"/>
+        <l:CurrentPlayer2Converter x:Key="currentPlayer2Converter"/>
+        <l:PlayerWithMostStonesConverter x:Key="playerWithMostStonesConverter"/>
+        
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="./_Resources/#Oswald"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.Background>
+            <ImageBrush ImageSource=".\_Resources\BackGround.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <TextBlock Text="Reversi" HorizontalAlignment="Center" Grid.Column="0" Grid.ColumnSpan="2" FontSize="30"/>
+          
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <Grid.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="BorderThickness" Value="2"/> 
+                    <Setter Property="CornerRadius" Value="4"/>
+                    <Setter Property="Margin" Value="5,0"/>
+                    <Setter Property="Padding" Value="5"/>
+                 </Style>
+
+                <Style TargetType="Button">
+                    <Setter Property="Width" Value="100" />
+                    <Setter Property="Margin"   Value="5,5,5,0"/>
+                    <Setter Property="HorizontalAlignment" Value="Left"/>
+                    <Setter Property="FontFamily" Value="./_Resources/#Oswald"/>
+                </Style>
+                
+                <Style TargetType="StackPanel">
+                    <Setter Property="Height" Value="auto"/>
+                </Style>
+            </Grid.Resources>
+
+            <TextBlock Text="Score:" Foreground="White" Margin="7" FontSize="20"/>
+
+            <Border Grid.Row="1" BorderBrush="{Binding CurrentPlayer.Value, Converter={StaticResource currentPlayer1Converter}}">
+                <StackPanel>
+                    <TextBlock Text="Player 1" TextDecorations="Underline" FontSize="15"/>
+                    <TextBlock Text="{Binding ScorePlayer1.Value}" FontSize="15"/>
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="2" BorderBrush="{Binding CurrentPlayer.Value, Converter={StaticResource currentPlayer2Converter}}">
+                <StackPanel>
+                    <TextBlock Text="Player 2" TextDecorations="Underline" FontSize="15"/>
+                    <TextBlock Text="{Binding ScorePlayer2.Value}" FontSize="15"/>
+                </StackPanel>
+            </Border>
+            <StackPanel Grid.Row="3" VerticalAlignment="Bottom" Margin="5,0,0,10">
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Save" Click="Save_Button_Click"/>
+                    <Button Content="Load last save" Click="Load_Button_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Restart" Click="Restart_Button_Click"/>
+                    <Button Content="Exit" Click="Exit_Button_Click"/>
+                </StackPanel>
+            </StackPanel>    
+        </Grid>
+
+        <ItemsControl x:Name="board"  ItemsSource="{Binding Rows}" Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" HorizontalAlignment="Left" Margin="0,10,10,10" Width="{Binding RelativeSource={RelativeSource Self},Path=ActualHeight}">
+
+            <ItemsControl.ItemsPanel>
+
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="8"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+
+                    <ItemsControl ItemsSource="{Binding Buttons}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <UniformGrid Columns="8"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+
+                                <Button Command="{Binding Click}" BorderBrush="#AAA" BorderThickness="0.05cm">
+
+                                    <Button.Template>
+                                        <ControlTemplate>
+                                            <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
+                                                <Grid>
+                                                    <TextBlock x:Name="textBlock" Background="#33000000"/>
+                                                    <Ellipse Fill="{Binding Owner.Value, Converter={StaticResource colorConverter}}" Visibility="{Binding Owner.Value, Converter={StaticResource ownedConverter}}"/>
+                                                </Grid>
+                                            </Border>
+
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsEnabled" Value="True">
+                                                    <Setter TargetName="textBlock" Property="Background" Value="#15FFFFFF"/>
+                                                </Trigger>
+
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Button.Template>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="#BB222222" Visibility="{Binding GameOver.Value, Converter={StaticResource gameOverConverter}}">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="FontFamily" Value="./_Resources/#Oswald"/>
+                    <Setter Property="Padding" Value="6,2,6,2"/>
+                    <Setter Property="Margin" Value="10,5,10,5"/>
+                    <Setter Property="FontSize" Value="25"/>
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="FontFamily" Value="./_Resources/#Oswald"/>
+                    <Setter Property="FontSize" Value="30"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="TextAlignment" Value="Center"/>
+                </Style>
+            </StackPanel.Resources>
+       
+            <TextBlock Text="Game over!"/>
+            <TextBlock Text="{Binding PlayerWithMostStones.Value, Converter={StaticResource playerWithMostStonesConverter}}" FontSize="25"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Content="Restart" Click="Restart_Button_Click"/>
+                <Button Content="Exit" Click="Exit_Button_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

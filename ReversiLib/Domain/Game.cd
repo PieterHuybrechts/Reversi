@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Reversi.Domain.Game">
+    <Position X="2.25" Y="2.5" Width="4" />
+    <Members>
+      <Field Name="board" Hidden="true" />
+      <Field Name="currentPlayer" Hidden="true" />
+      <Method Name="DeriveCurrentPlayer" Hidden="true" />
+      <Method Name="Game" Hidden="true" />
+      <Field Name="gameState" Hidden="true" />
+      <Method Name="GetOwnerAt" Hidden="true" />
+      <Field Name="isGameOver" Hidden="true" />
+      <Method Name="IsValidMove" Hidden="true" />
+      <Method Name="PlaceStone" Hidden="true" />
+      <Method Name="Refresh" Hidden="true" />
+      <Field Name="stoneCounts" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Class Name="Reversi.Domain.Game.Square" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Domain\Game.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+    <AssociationLine Name="Board" Type="Reversi.Domain.ISquare" FixedFromPoint="true">
+      <Path>
+        <Point X="6.25" Y="3.519" />
+        <Point X="6.625" Y="3.519" />
+        <Point X="6.625" Y="6.316" />
+        <Point X="5.75" Y="6.316" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAgIgCEAACAAACAIACggSCCAAA=</HashCode>
+      <FileName>Domain\Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Board" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="Reversi.Domain.ISquare">
+    <Position X="3" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAgAAAAAAAEAACAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Domain\Game.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

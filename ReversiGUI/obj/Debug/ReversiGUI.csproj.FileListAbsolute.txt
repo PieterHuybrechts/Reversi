@@ -1,0 +1,60 @@
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiGUI.exe.config
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiGUI.exe
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiGUI.pdb
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\App.g.cs
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI_MarkupCompile.cache
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.g.resources
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.Properties.Resources.resources
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.csproj.GenerateResource.Cache
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.exe
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.pdb
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiLib.dll
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiLib.pdb
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiGUI.exe.config
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.exe
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.csprojResolveAssemblyReference.cache
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\MainWindow.baml
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\MainWindow.g.cs
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\App.g.cs
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI_MarkupCompile.cache
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.g.resources
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.Properties.Resources.resources
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.csproj.GenerateResource.Cache
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiGUI.exe
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiGUI.pdb
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiLib.dll
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\bin\Debug\ReversiLib.pdb
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI.pdb
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI_MarkupCompile.lref
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Users\Pieter\Dropbox\1_School\TI\2eJr\VGO\reversi\Reversi\ReversiGUI\obj\Debug\ReversiGUI_MarkupCompile.lref
+E:\Users\Pieter\Desktop\Reversi\ReversiGUI\bin\Debug\ReversiGUI.exe.config
+E:\Users\Pieter\Desktop\Reversi\ReversiGUI\obj\Debug\ReversiGUI.exe
+E:\Users\Pieter\Desktop\Reversi\ReversiGUI\obj\Debug\ReversiGUI.pdb
+E:\Users\Pieter\Desktop\VGO_Pieter_Huybrechts\ReversiGUI\bin\Debug\ReversiGUI.exe.config
+E:\Users\Pieter\Desktop\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI.exe
+E:\Users\Pieter\Desktop\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI.pdb
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\bin\Debug\ReversiGUI.exe.config
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI.exe
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI.pdb
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\bin\Debug\ReversiGUI.exe
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\bin\Debug\ReversiGUI.pdb
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\bin\Debug\ReversiLib.dll
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\bin\Debug\ReversiLib.pdb
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI.csprojResolveAssemblyReference.cache
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\MainWindow.g.cs
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\App.g.cs
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI_MarkupCompile.cache
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI_MarkupCompile.lref
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\MainWindow.baml
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI.g.resources
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI.Properties.Resources.resources
+E:\Users\huybr\Dropbox\1_School\TI\2eJr\VGO\VGO Examen\VGO_Pieter_Huybrechts\ReversiGUI\obj\Debug\ReversiGUI.csproj.GenerateResource.Cache
+C:\Users\huybr\Source\Repos\Reversi\ReversiGUI\bin\Debug\ReversiGUI.exe.config
+C:\Users\huybr\Source\Repos\Reversi\ReversiGUI\obj\Debug\ReversiGUI.exe
+C:\Users\huybr\Source\Repos\Reversi\ReversiGUI\obj\Debug\ReversiGUI.pdb

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Reversi.Domain.Player">
+    <Position X="5" Y="2.5" Width="2" />
+    <NestedTypes>
+      <Class Name="Reversi.Domain.Player.PlayerOne" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Domain\Player.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Reversi.Domain.Player.PlayerTwo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Domain\Player.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAgAAAAAAAIAAiAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Domain\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
